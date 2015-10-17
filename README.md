@@ -57,6 +57,7 @@ _Run this task with the `grunt gettext-compile` command._
 | `preserveScripts` | `false` | Flag, preserving inline script sections started with `startScript` and ending with `endScript` |
 | `startScript` | `<%` | Start delimiter for script section |
 | `endScript` | `%>` | End delimiter for script section |
+| `langCode` | `undefined` | The `{Language}` variable in destination path is determined, first from Language header in PO file, then basename of the PO file, this option is to map the language code further, provide either a function or a map object of `<language>:<your_language>` |
 
 
 ## Dependencies
