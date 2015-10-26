@@ -1,7 +1,7 @@
 {
     "name": "grunt-gettext-gen",
     "description": "Tasks for compiling gettext PO strings into source files.",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "homepage": "https://github.com/englishtown/grunt-gettext-generate-html",
     "author": {
         "name": "Dmitry Serpakov",
