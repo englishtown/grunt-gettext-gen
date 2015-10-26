@@ -36,7 +36,7 @@ module.exports = function (grunt) {
         translator.iterateLocales(function(locale, lang) {
             lang = locale.Language || lang;
 
-            var dest_lang;
+            var dest_lang = lang;
             // Language code mapping
             if (typeof lang_map === 'function') {
                 dest_lang = lang_map(lang);
