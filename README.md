@@ -1,28 +1,18 @@
-# HTML Generator for [grunt-angular-gettext](https://github.com/rubenv/grunt-angular-gettext) task
+# grunt-gettext-gen
 
-> Compiles translatable strings annotated with [grunt-angular-gettext](https://github.com/rubenv/grunt-angular-gettext) notation from given path pattern and writes to the given destination preserving folder structure.
+> Compiles source files with translatable strings annotated by [grunt-gettext](https://github.com/englishtown/grunt-gettext) into ready-to-use localised files
 
-
-## Getting Started
-
-This plugin requires Grunt `~0.4.1`
-
-If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
+## Installation
 
 ```shell
-npm install --save-dev grunt-angular-gettext-generate-html
+npm install --save-dev grunt-gettext-gen
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-angular-gettext-generate-html');
+grunt.loadNpmTasks('grunt-gettext-gen');
 ```
-
-
-## Run task
-
-_Run this task with the `grunt gt_generate_html` command._
 
 
 ## Usage
@@ -30,7 +20,7 @@ _Run this task with the `grunt gt_generate_html` command._
 _Add this task to you grunt configuration._
  
 ```
-"gt_generate_html": {
+"gettext-compile": {
     "l10n": {
         "po": [ "l10n_po/*.po" ],
         "source": [
@@ -46,6 +36,7 @@ _Add this task to you grunt configuration._
  }
  ```
  
+_Run this task with the `grunt gettext-compile` command._
 
 ### Settings
 
