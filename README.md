@@ -20,7 +20,7 @@ grunt.loadNpmTasks('grunt-gettext-gen');
 _Add this task to you grunt configuration._
  
 ```
-"gettext-compile": {
+"gettext_gen": {
     "l10n": {
         "po": [ "l10n_po/*.po" ],
         "source": [
@@ -36,7 +36,7 @@ _Add this task to you grunt configuration._
  }
  ```
  
-_Run this task with the `grunt gettext-compile` command._
+_Run this task with the `grunt gettext_gen` command._
 
 ### Settings
 

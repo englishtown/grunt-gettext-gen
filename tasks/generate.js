@@ -3,7 +3,7 @@ module.exports = function (grunt) {
     var Translator = require('./lib/translate').init(grunt).Translator;
     var path = require('path');
 
-    grunt.registerMultiTask('gt_generate_html', 'Generate translated files from given path using .po files', function () {
+    grunt.registerMultiTask('gettext_gen', 'Generate translated files from given path using .po files', function () {
         var options = this.options();
         var lang_map = options.langCode;
 
